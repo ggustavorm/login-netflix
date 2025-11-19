@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    background: url('../img/background.jpg') no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+}
+
+.logo img{
+    height: 45px;
+    width: 167px;
+
+}
+
+.header{
+    position: relative;
+    z-index: 10;
+    padding: 20px 50px;
+}
+
+.login-container{
+    padding: 60px;
+    z-index: 90;
+    position: relative;
+    max-width: 450px;
+    height: 550px;
+    margin-left: 50%;
+    background-color: rgba(0,0,0,0.75);
+    border-radius: 10px;
+    box-sizing: border-box;
+    transform: translateX(-50%);
+}
+
+.login-container h2{
+    font-size: 32px;
+    color: #fff;
+    margin-top: 0px;
+}
+
+.login-container input{
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    outline: none;
+}
+.login-container input:hover{
+    background-color: #444;
+}
+
+.input-box{
+    margin-bottom: 25px;
+}
+
+.login-container button{
+    height: 50px;
+    width: 100%;
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: BOLD;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.login-container button:hover{
+    background-color: #f6121d;
+}
+
+.support{
+    display: flex;
+    justify-content: space-between;
+    color: #b3b3b3;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.support input{
+    width: 15px;
+    height: 15px;
+}
+
+.remenber{
+    display: flex;
+    align-items: center;
+}
+.remenber span{
+    margin-right: 5px;
+    height: 25px;
+}
+
+.help a{
+    color: #737373;
+    text-decoration: none;
+}
+.help a:hover{
+    text-decoration: underline;
+}
+
+.login-facebook{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: #737373;
+}
+.login-facebook span{
+    margin-right: 5px;
+    font-size: 13px;
+}
+.login-facebook img{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+.login-facebook span a{
+    color: #737373;
+    text-decoration: none;
+}
+.login-facebook span a:hover{
+    text-decoration: underline;
+}
+
+.sign-up{
+    color: #737373;
+    font-size: 14px;
+}
+.sign-up a{
+    color: #fff;
+    text-decoration: none;
+}   
+.sign-up a:hover{
+    text-decoration: underline;
+}
+
+.terms{
+    font-size: 13px;
+    color: #737373;
+}
+.terms a{
+    color: #0071eb;
+    text-decoration: none;
+}
+.terms a:hover{
+    text-decoration: underline;
+}
